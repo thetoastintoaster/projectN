@@ -1,0 +1,71 @@
+Patch 0.1
+- Add Health Bar
+- Add XP Bar
+
+Patch 0.2
+- Make it possible for the player to die
+- Add "Restart From Last Checkpoint Screen" on death
+- Add weak enemies
+	- Setup Attack Animations
+	- Setup Death Animations
+	- Setup Idle Animations
+	- Setup a Special Attack Animation
+	- Setup an Ultimate Attack Animation
+	- Setup the appropiate hitbox for each animation
+	- Script the weak enemies to account for boss to player interactions
+
+Patch 0.2
+- Add Strong enemies
+	- Setup Attack Animations
+	- Setup Death Animations
+	- Setup Idle Animations
+	- Setup a Special Attack Animation
+	- Setup an Ultimate Attack Animation
+	- Setup the appropiate hitbox for each animation
+	- Script the strong enemies to account for boss to player interactions
+
+- Officially create 5 levels with transitions
+
+Patch 0.3
+- Add a boss and place that boss on level 3 
+(this boss is bigger than a "Strong" enemy)
+	- Setup Attack Animations
+	- Setup Death Animations
+	- Setup Idle Animations
+	- Setup a Special Attack Animation
+	- Setup an Ultimate Attack Animation
+	- Setup the appropiate hitbox for each animation
+	- Script the boss to account for boss to player interactions
+
+Patch 0.4
+- Add an inventory system
+	- Add interactable items
+
+- Add interactable NPC's
+	- Add Dialogue boxes for the NPC's
+
+
+Patch 0.5
+- Final boss on level 5
+	- Setup Attack Animations
+	- Setup Death Animations
+	- Setup Idle Animations
+	- Setup a Special Attack Animation
+	- Setup an Ultimate Attack Animation
+	- Setup the appropiate hitbox for each animation
+	- Script the final boss to account for boss to player interactions
+
+- Once boss is defeated add a prompt screen that asks
+if the player wants to restart or to explore the world
+- 
+
+Patch 0.6
+- Make the UI in all sections look good
+- Replace each animation with the ones Jason made
+
+Patch 0.7
+- Add game music (I got this part)
+
+
+Potential Additions
+- Stamina Bar

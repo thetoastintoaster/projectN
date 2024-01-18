@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3rmp5gp4yahy"]
+
+[ext_resource type="Script" path="res://menus/pause_menu.gd" id="1_goriv"]
+
+[node name="PauseMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_goriv")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -160.0
+offset_right = 288.0
+offset_bottom = 82.0
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Paused"
+
+[node name="buttonContinue" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Continue"
+
+[node name="buttonPhotoMode" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Photo Mode"
+
+[node name="buttonSettings" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Settings"
+
+[node name="buttonQuitSave" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Quit & Save"
+
+[connection signal="pressed" from="Panel/VBoxContainer/buttonContinue" to="." method="_on_button_continue_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/buttonQuitSave" to="." method="_on_button_quit_save_pressed"]
